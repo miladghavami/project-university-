@@ -1,6 +1,14 @@
 # Project Overview
 The project involves **Exploratory Data Analysis (EDA)** and **Feature Engineering** on Airbnb's Listings and Reviews datasets for five major Tech Hubs in the United States: **Boston, Chicago, Los Angeles, Dallas and San Francisco**. Key tasks include descriptive statistics, correlation analysis, price trends, neighborhood comparisons, outlier detection, and review text analysis.
 
+# Contents
+- [Data Source](https://github.com/venkapk/machine-learning/edit/master/README.md#data-source)
+- [Folder Structure](https://github.com/venkapk/machine-learning/edit/master/README.md#folder-structure)
+- [Objectives](https://github.com/venkapk/machine-learning/edit/master/README.md#objectives)
+- [Tasks](https://github.com/venkapk/machine-learning/edit/master/README.md#tasks)
+- [Contributors](https://github.com/venkapk/machine-learning/edit/master/README.md#contributors)
+- [License](https://github.com/venkapk/machine-learning/edit/master/README.md#license)
+
 # Data Source
 Data is sourced from Inside Airbnb. The datasets used are:
 - **Detailed Lisitings Dataset**: This dataset contains contains detailed information about each property, such as the `location`, `neighbourhood`, `price`, `minimum_nights`, `maximum_nights`, `availability`, `features` etc.
@@ -65,5 +73,12 @@ presence of these keywords, which might influence guest satisfaction.
 1 - Keyword Limitations: The selected keywords, although common, may not fully capture the entire scope of guest experiences. Additional keywords or specific vocabulary could enhance the analysis. 
 2 - Keyword Context: The approach counts keyword occurrences without considering the context. For example, the word “clean” may appear in both positive and negative scenarios (e.g., not clean). More advanced techniques, like NLP, could be used to address this. 
 3 - Review Availability: The availability of few or no reviews may not provide meaningful data for analysis, which can lead to incomplete insights for listings. 
+
+# Contributors
+* Milad Ghavami
+* Pravinkumar Yadav
+* Reena Sajad Hyder
+* Venkateshprasad Pradeeprao Kulkarni
+
 # License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute as needed.
